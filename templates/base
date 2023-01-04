@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Blog en Go</title>
+</head>
+<body>
+	<header>
+		<h1>Blog en Go</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="/">Inicio</a></li>
+		</ul>
+	</nav>
+	<main>
+		{{template "content" .}}
+	</main>
+	<footer>
+		&copy; Blog en Go
+	</footer>
+</body>
+</html>
